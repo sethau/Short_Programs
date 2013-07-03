@@ -1,0 +1,44 @@
+Seth Denney
+Assignment#:
+2b
+
+PROBLEM:
+Given a weight in pounds and a height in feet, output the BMI in kg/m^2.
+
+Then, using the previously given height in inches and a target BMI in kilograms per meter squared,
+calculate and print the target weight in pounds to the screen.
+
+
+ANALYSIS:
+Problem constants:
+1kg = 2.2046 lbs
+1” = 2.54 cm = 0.0254 m
+
+
+Problem inputs:
+Height in inches
+BMI in kilograms per meter squared
+
+Problem outputs:
+Weight in lbs
+
+Relevant formulas:
+Weight = BMI * (height * in_m * height * in_m) / lb_kg
+
+Test data:
+BMI = 20
+in = 72 
+=
+lbs = 147.47
+
+DESIGN:
+Initial algorithm:
+Weight = BMI * (height * in_m * height * in_m) * lb_kg
+
+Completed algorithm with refinements:
+Weight = BMI * (height * in_m * height * in_m) / lb_kg
+
+IMPLEMENTATION:
+This will be your writing your C program using the above development plan. Do not type your program here. You will submit it as a .c file.
+
+

@@ -1,0 +1,96 @@
+Seth Denney
+Assignment#:
+4
+
+PROBLEM:
+
+Input member information for some number of new members.
+Then print a summary of each member's information to the screen.
+
+
+ANALYSIS:
+Problem constants:
+1kg = 2.2046 lbs
+1” = 2.54 cm = 0.0254 m
+
+   const double in_m = 0.0254 ;
+   const double lb_kg = 0.453597 ;
+   const double inmin = 59.0 ;
+   const double inmax = 78.0 ;
+   const double lbsmin = 90.0 ;
+   const double lbsmax = 350.0 ;
+   const double BMImin = 18.5 ;
+   const double BMImax = 30.0 ;
+
+
+Problem inputs:
+Weight in pounds
+Height in inches
+BMI in kilograms per meter squared
+
+Problem outputs:
+BMI in kilograms per meter squared
+Weight in pounds
+
+Relevant formulas:
+BMI = (lbs * lb_kg)/(in * in_m * in * in_m)
+Weight = BMI * (height * in_m * height * in_m) / lb_kg
+
+Test data:
+
+Enter the number of new members: 1
+=======Member 001 Info=======
+Enter the gender, m for male or f for female: m
+weight:165
+Height: 72
+BMI: 22.38 kg/m^2
+Enter the target BMI in kilograms per meter squared: 20
+Target weight: 147.47 pounds
+
+=============================
+Summary of Member 001
+
+Height:              72.00
+Weight:             165.00
+Gender:                  m
+BMI:                 22.38
+Classification:     normal
+IBW:                171.08
+Target BMI:          20.00
+Target Weight:      147.47
+=============================
+
+
+DESIGN:
+Initial algorithm:
+prompt for number of new members
+prompt for gender
+check gender
+prompt for weight and height
+check for weight and height for accuracy
+calculate BMI when accurate input is entered
+check BMI for accuracy
+prompt for target BMI
+calculate target weight
+calculate IBW for specified gender
+print member summary
+member #next...etc.
+
+Completed algorithm with refinements:
+prompt for number of new members
+prompt for gender
+check gender
+prompt for weight and height
+check for weight and height for accuracy
+calculate BMI when accurate input is entered
+check BMI for accuracy
+prompt for target BMI
+calculate target weight
+calculate IBW for specified gender
+print member summary
+member #next...etc.
+
+IMPLEMENTATION:
+This will be your writing your C program using the above development plan. Do not type your program here. You will submit it as a .c file.
+
+

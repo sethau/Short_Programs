@@ -1,0 +1,69 @@
+Seth Denney
+Assignment#:
+5b
+
+PROBLEM:
+
+Read memberInfo.txt
+Calculate BMI, IBW, and tgtlbs for tgtBMI of 25.0
+Print summary to screen
+stop when sentinel value is read
+
+
+ANALYSIS:
+Problem constants:
+1kg = 2.2046 lbs
+1” = 2.54 cm = 0.0254 m
+
+   const double in_m = 0.0254 ;
+   const double lb_kg = 0.453597 ;
+   const double inmin = 59.0 ;
+   const double inmax = 78.0 ;
+   const double lbsmin = 90.0 ;
+   const double lbsmax = 350.0 ;
+   const double BMImin = 18.5 ;
+   const double BMImax = 30.0 ;
+
+
+Problem inputs:
+none
+
+Problem outputs:
+member info table
+
+
+Relevant formulas:
+BMI = (lbs * lb_kg)/(in * in_m * in * in_m)
+target weight = BMI * (height * in_m * height * in_m) / lb_kg
+IBW = (50.0 + 2.3 * (in - 60)) / lb_kg ;
+IBW = (45.5 + 2.3 * (in - 60)) / lb_kg ;
+
+
+Test data:
+Member# Height Weight Gender    BMI  TgtWeight  Classification
+    001  72.0   165.0      M  22.38     184.33  normal
+    002  70.0   160.0      M  22.96     174.23  normal
+
+
+DESIGN:
+Initial algorithm:
+
+Read memberInfo.txt
+Calculate BMI, IBW, and tgtlbs for tgtBMI of 25.0
+Print summary to screen
+stop when sentinel value is read
+
+
+Completed algorithm with refinements:
+
+Read memberInfo.txt
+Calculate BMI, IBW, and tgtlbs for tgtBMI of 25.0
+Print summary to screen
+stop when sentinel value is read
+
+
+
+IMPLEMENTATION:
+This will be your writing your C program using the above development plan. Do not type your program here. You will submit it as a .c file.
+
+

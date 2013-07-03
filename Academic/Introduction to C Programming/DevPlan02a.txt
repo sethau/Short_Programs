@@ -1,0 +1,45 @@
+Seth Denney
+Assignment#:
+2a
+
+PROBLEM:
+Given a weight in pounds and a height in feet, output the BMI in kg/m^2
+
+
+ANALYSIS:
+Problem constants:
+1kg = 2.2046 lbs
+1” = 2.54 cm = 0.0254 m
+
+
+Problem inputs:
+Weight in lbs
+Height in inches
+
+Problem outputs:
+BMI in kg/m^2
+
+Relevant formulas:
+BMI = (lbs / lb_kg)/(in * in_m)^2
+
+Test data:
+200 lbs
+72 in
+=
+90.719 kg
+1.829 m
+=
+BMI = 27.119 kg/m^2
+
+DESIGN:
+Initial algorithm:
+BMI = (lbs / lb_kg)/(in * in_m)^2
+
+
+Completed algorithm with refinements:
+BMI = (lbs * lb_kg)/(in * in_m * in * in_m)
+
+IMPLEMENTATION:
+This will be your writing your C program using the above development plan. Do not type your program here. You will submit it as a .c file.
+
+
