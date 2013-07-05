@@ -1,0 +1,5 @@
+"Hello, World!\r"
++ "\n\r"
++ "\nThis has a variable, #var1, and variable #var2.\r"
++ "\n\r"
++ "\n\t\tThis is double-tabbed."
