@@ -55,10 +55,10 @@ def intHammingDistance(a, b):
 #prints Hamming Distance of each pair of binary strings
 #(as calculated via both string interpretation and arithmetic analysis)
 def allPairsDistance(values):
-    for val1 in values:
-        for val2 in values:
-            if indexOf(values, val1) != indexOf(values, val2):
-                print val1, val2, strHammingDistance(val1, val2), intHammingDistance(valueOf(val1), valueOf(val2))
+    for i in xrange(len(values)):
+        for j in xrange(i + 1, len(values)):
+            if i != j:
+                print values[i], values[j], strHammingDistance(values[i], values[j]), intHammingDistance(valueOf(values[i]), valueOf(values[j]))
 
 #program start
 numList = ["1001", "1100", "1010", "1", "11110"]
